@@ -44,3 +44,5 @@ assertArraysEqual(map(words, word => word.length), ['6', '7', '2', '5', '3']);
 
 assertArraysEqual(map(words, word => word + "s"), ['grounds', 'controls', 'tos', 'majors', 'toms']);
 assertArraysEqual(map(words, word => word + "s"), ['g', 'p', 't', 'm', 't']);
+
+module.exports = map;

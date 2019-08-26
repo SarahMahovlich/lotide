@@ -45,3 +45,5 @@ let ba2 = { b: "2", a: "1" };
 
 assertObjectsEqual(ab, ba);
 assertObjectsEqual(ab, ba2);
+
+module.exports = assertObjectsEqual;

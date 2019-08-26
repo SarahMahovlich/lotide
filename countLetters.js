@@ -29,3 +29,5 @@ const result1 = countLetters(quote);
 console.log(assertEqual(result1["t"], 6));
 console.log(assertEqual(result1["y"], 2));
 console.log(assertEqual(result1["s"], 3));
+
+module.exports = countLetters;
