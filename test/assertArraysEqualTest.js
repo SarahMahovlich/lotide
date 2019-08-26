@@ -1,5 +1,12 @@
-const assertEqual = require('../assertEqual');
+const assert = require("chai").assert;
 const assertArraysEqual = require('../assertArraysEqual');
 
-assertEqual(assertArraysEqual([1, 2, 3], [1, 2, 3]), true);
-assertEqual(assertArraysEqual([1, 2, 3], [1, 2, 4]), false);
+describe("#assertArraysEqualTest", () => {
+  it("returns true for [1, 2, 3], [1, 2, 3] ", () => {
+    assert.deepEqual(assertArraysEqual([1, 2, 3], [1, 2, 3]), true);
+  });
+
+  it("returns true for [1, 2, 3], [1, 2, 3] ", () => {
+    assert.deepEqual(assertArraysEqual([], []), true);
+  });
+});

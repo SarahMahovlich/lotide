@@ -1,7 +1,11 @@
-const assertEqual = require('../assertEqual');
+const assert = require("chai").assert;
 
-assertEqual("LHL", "LHL");
-assertEqual("Lighthouse Labs", "Bootcamp");
-assertEqual(1, 1);
-assertEqual(1, 12);
-assertEqual(1, "1");
+describe("#assertEqualTest", () => {
+  it("returns LHL for LHL", () => {
+    assert.strictEqual("LHL", "LHL");
+  });
+
+  it("returns 1 for 1", () => {
+    assert.strictEqual(1, 1); 
+  });
+});
