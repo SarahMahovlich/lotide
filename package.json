@@ -1,7 +1,7 @@
 {
   "name": "lotide",
   "version": "1.0.0",
-  "description": "",
+  "description": "Functions created for the Lotide project",
   "main": "assertArraysEqual.js",
   "directories": {
     "test": "test"
@@ -19,7 +19,7 @@
     "type": "git",
     "url": "git+https://github.com/SarahMahovlich/lotide.git"
   },
-  "author": "",
+  "author": "sarah_mahovlich",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/SarahMahovlich/lotide/issues"
